@@ -25,7 +25,7 @@ const info = await transporter.sendMail({
     from: '"I Am Javascript" <otpverify1979@gmail.com>',
     to: tomail,
     subject: "Hello ✔ Testing",
-    text: `Hello world! I am Learning queue systeam and worker using bullmq , jobId: ${jobid}`, // plain‑text body
+    text: `Hello world! I am Learning queue system and worker using bullmq , jobId: ${jobid}`, // plain‑text body
     html: `<b>Hello world! Hello world! I am Learning queue systeam and worker using bullmq</b> <br> <b>jobId: ${jobid}</b>`, // HTML body
   });
 } catch (err) {
