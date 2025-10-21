@@ -5,7 +5,7 @@ git clone https://github.com/prajapati-satyam/simple-mail-send-using-queue.git
 ```
 
 ```
-cd simple-mail-send-using-queue
+cd simple-mail-send-using-queue-bullmq
 ```
 
 
