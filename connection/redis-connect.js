@@ -1,6 +1,9 @@
+require('dotenv').config();
+import { RedisConnection } from "bullmq";
 import {Redis} from "ioredis"
 
-export const redisConnection = new Redis(
+export const redisConnection = new Redis(process.env.REDIS_URL,
     {maxRetriesPerRequest: null,
-        host: "valkey",
-        port: 6379});
+        // host: "",
+        port: 6379,
+    });
