@@ -1,4 +1,5 @@
-require('dotenv').config();
+import dotenv from 'dotenv';
+dotenv.config()
 import { RedisConnection } from "bullmq";
 import {Redis} from "ioredis"
 
