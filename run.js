@@ -8,3 +8,8 @@ setTimeout(() => {
     console.log("Server started. Launching worker.js...");
     const worker = spawn("node", ["worker.js"], { stdio: "inherit" });
 }, 2000);
+// run second worker
+setTimeout(() => {
+    console.log("Server started. Launching worker.js...");
+    const worker = spawn("node", ["worker.js"], { stdio: "inherit" });
+}, 2000);
